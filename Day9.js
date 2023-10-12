@@ -26,11 +26,7 @@ export function initializeEmptyMatrix(rows, cols) {
 	}
 
 	// Create new Matrix using .fill method
-	// const matrix = [];
-	// for (let i = 0; i < rows; i++) {
-	// 	matrix.push(new Array(cols).fill([]));
-	// }
-	// return matrix;
+
 	 
 	// return new Array(rows).fill(new Array(cols).fill([]));
 	return Array.from({ length: rows }, () => Array.from({ length: cols }, () => []));
