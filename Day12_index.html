@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Zoe's To-Do App</title>
+		<link rel="stylesheet" href="Day12_style.css" />
+	</head>
+	<body>
+		<input type="text" id="taskInput" placeholder="New task..." />
+		<button onclick="addTask()">Add Task</button>
+		<div>
+			<button onclick="filterTasks('all')">Show All</button>
+			<button onclick="filterTasks('completed')">Show Completed</button>
+			<button onclick="filterTasks('incomplete')">Show Incomplete</button>
+		</div>
+		<ul id="taskList"></ul>
+
+		<script src="Day12_index.js"></script>
+	</body>
+</html>
